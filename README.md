@@ -10,7 +10,7 @@ Base documents provided by Trilogy education services, submited document by me, 
 ## License
 MIT license. Please see license on repository folder.
 
-## My portfoliCode-quiz link
+## My work-day-schedule link
 https://iresuji.github.io/Work-Day-Scheduler/
 
 ![screenshot](./assets/img/Screenshot%202023-01-24%20231027.jpg)

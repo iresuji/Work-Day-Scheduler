@@ -10,20 +10,19 @@ var currentHour = moment().format("H");
 
 //if we don't have any todos set up, let's set up the array of objects
 function initializeSchedule() {
-    //  console.log(toDoItems);
 
-    //for each time block
+
     $timeBlocks.each(function () {
         var $thisBlock = $(this);
         var thisBlockHr = parseInt($thisBlock.attr("data-hour"));
 
         var todoObj = {
-            //set related todo hour to same as data-hour
+
             hour: thisBlockHr,
-            //get text ready to accept string input
+
             text: "",
         }
-        //add this todo object to todoitems array
+
         toDoItems.push(todoObj);
     });
 
